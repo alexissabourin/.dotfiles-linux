@@ -16,7 +16,7 @@ I use the Windows Terminal on Windows 11 with a [custom configuration](settings.
 > I symlink my Windows Terminal configuration file via PowerShell to have it version controlled.
 
 ```posh
-New-Item -ItemType SymbolicLink -Path "C:\Users\<WIN-UNAME>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -Target "\\wsl$\Arch\home\<WSL-UNAME>\.dotfiles\settings.json" -Force
+New-Item -ItemType SymbolicLink -Path "C:\Users\<WIN-UNAME>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -Target "\\wsl$\Arch\home\<WSL-UNAME>\.dotfiles\.settings.json" -Force
 ```
 ## Shell
 
