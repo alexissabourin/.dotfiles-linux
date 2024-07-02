@@ -16,7 +16,7 @@ zstyle ':omz:plugins:alias-finder' cheaper yes
 export BAT_THEME="gruvbox-dark"
 
 # eza
-eza="eza --git --icons --classify --group-directories-first --time-style=long-iso --group --all --long --git-ignore --header --color=always"
+eza="eza --git --icons --classify --group-directories-first --time-style=long-iso --group --all --long --header --color=always"
 alias eza=$eza
 
 # fzf
