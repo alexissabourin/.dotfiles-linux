@@ -81,6 +81,7 @@ I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https:
 
 - Integrates with
   - tmuxp
+  - tpm
  
 ### [tmuxp](https://github.com/tmux-python/tmuxp)
 
@@ -92,6 +93,8 @@ I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https:
 
 - Tmux plugins manager
 - Theming
+- Integrates with
+  - tmux
  
 ### [zoxide](https://github.com/ajeetdsouza/zoxide)
 
