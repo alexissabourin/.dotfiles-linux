@@ -1,8 +1,2 @@
-[tools]
-python = "latest"
-
-[plugins]
-python = "https://github.com/asdf-community/asdf-python"
-
 [settings]
 experimental = true
