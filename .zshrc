@@ -16,11 +16,13 @@ zstyle ':omz:plugins:alias-finder' cheaper yes
 export BAT_THEME="gruvbox-dark"
 
 # eza
-alias eza="eza --git --icons --classify --group-directories-first --time-style=long-iso --group --all --long --git-ignore --header"
+eza="eza --git --icons --classify --group-directories-first --time-style=long-iso --group --all --long --git-ignore --header --color=always"
+alias eza=$eza
 
 # fzf
 export FZF_CTRL_T_COMMAND="fd --type f --strip-cwd-prefix --hidden --follow --exclude .git"
 export FZF_CTRL_T_OPTS="--multi --no-mouse --height 50% --reverse --border --no-bold --preview 'bat --color=always {}'"
+export FZF_ALT_C_OPTS="--multi --no-mouse --height 50% --reverse --border --no-bold --preview '$eza {}'"
 
 source <(fzf --zsh)
 
