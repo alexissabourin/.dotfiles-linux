@@ -1,0 +1,17 @@
+[oh-my-zsh]
+	git-commit-alias = a87e9c715b2d3249681f9cc8f8d9718030674d50
+[delta]
+	navigate = true
+[core]
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
+[init]
+	defaultBranch = main
+#[user]
+#	name = Alexis Sabourin
+#	email = 155196582+alexissabourin@users.noreply.github.com
