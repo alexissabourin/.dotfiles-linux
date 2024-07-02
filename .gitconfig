@@ -12,6 +12,6 @@
 	colorMoved = default
 [init]
 	defaultBranch = main
-#[user]
-#	name = Alexis Sabourin
-#	email = 155196582+alexissabourin@users.noreply.github.com
+[user]
+	name = Alexis Sabourin
+	email = 155196582+alexissabourin@users.noreply.github.com
