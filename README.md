@@ -6,18 +6,8 @@
 
 ## OS
 
-I run my host on Windows 11 to enjoy its ecosystem in my daily life, and Arch on WSL for my software development experience.
+I use Arch on WSL to develop software.
 
-## Terminal
-
-I use the Windows Terminal on Windows 11 with a [custom configuration](settings.json) to run my Arch distribution on WSL.
-
-> [!NOTE]
-> I symlink my Windows Terminal configuration file via PowerShell to have it version controlled.
-
-```posh
-New-Item -ItemType SymbolicLink -Path "C:\Users\<WIN-UNAME>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -Target "\\wsl$\Arch\home\<WSL-UNAME>\.dotfiles\.settings.json" -Force
-```
 ## Shell
 
 I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https://github.com/ohmyzsh/ohmyzsh) for better defaults and management.
