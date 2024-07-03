@@ -4,10 +4,6 @@
   <img alt="image" src="https://github.com/alexissabourin/.dotfiles/assets/155196582/79c74646-d050-418f-92e0-13eb9ad4c248" />
 </div>
 
-## OS
-
-I use Arch on WSL to develop software.
-
 ## Shell
 
 I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https://github.com/ohmyzsh/ohmyzsh) for better defaults and management.
