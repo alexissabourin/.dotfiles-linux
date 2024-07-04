@@ -10,30 +10,20 @@ I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https:
 
 ## Tools
 
-### [bat](https://github.com/sharkdp/bat)
-
-### [eza](https://github.com/eza-community/eza)
-
-### [fd](https://github.com/sharkdp/fd)
-
-### [fzf](https://github.com/junegunn/fzf)
-
-### [git](https://github.com/git/git)
-
-### [git-delta](https://github.com/dandavison/delta)
- 
-### [mise](https://github.com/jdx/mise)
-
-### [stow](https://github.com/aspiers/stow)
-
-### [tldr](https://github.com/tldr-pages/tldr)
-
-### [tmux](https://github.com/tmux/tmux)
- 
-### [tmuxp](https://github.com/tmux-python/tmuxp)
- 
-### [tpm](https://github.com/tmux-plugins/tpm)
- 
-### [zoxide](https://github.com/ajeetdsouza/zoxide)
+| Tool | Compatibility |
+| :---: | :---: |
+| [bat](https://github.com/sharkdp/bat) | fzf |
+| [eza](https://github.com/eza-community/eza) | fzf |
+| [fd](https://github.com/sharkdp/fd) | fzf |
+| [fzf](https://github.com/junegunn/fzf) | bat <br /> eza <br /> fd <br /> zoxide |
+| [git](https://github.com/git/git) | git-delta |
+| [git-delta](https://github.com/dandavison/delta) | git |
+| [mise](https://github.com/jdx/mise) |
+| [stow](https://github.com/aspiers/stow) |
+| [tldr](https://github.com/tldr-pages/tldr) |
+| [tmux](https://github.com/tmux/tmux) | tmuxp |
+| [tmuxp](https://github.com/tmux-python/tmuxp) | tmux <br /> tpm |
+| [tpm](https://github.com/tmux-plugins/tpm) | tmux |
+| [zoxide](https://github.com/ajeetdsouza/zoxide) | fzf |
 
 ## Text editor
