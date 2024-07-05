@@ -31,3 +31,6 @@ eval "$($HOME/.local/bin/mise activate zsh)"
 
 # ssh
 source $HOME/.scripts/load_ssh_agent.sh
+
+# tmuxp
+export DISABLE_AUTO_TITLE="true"
