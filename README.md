@@ -10,7 +10,7 @@
 
 I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https://github.com/ohmyzsh/ohmyzsh) for better defaults and plugin management.
 
-| Tool |
+| Tools |
 | :---: |
 | [bat](https://github.com/sharkdp/bat) |
 | [eza](https://github.com/eza-community/eza) |
@@ -27,16 +27,15 @@ I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https:
 
 I use [tmux](https://github.com/tmux/tmux) with [tmuxp](https://github.com/tmux-python/tmuxp) for projects layouts and [tpm](https://github.com/tmux-plugins/tpm) for plugin management.
 
-| Plugin |
+| Plugins |
 | :---: |
 | [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible) |
 | [tmux-gruvbox](https://github.com/egel/tmux-gruvbox) |
 
 ## Text editor
 
-I use [neovim](https://github.com/neovim/neovim) with [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management.
-I use a custom configuration[^1].
+I use [neovim](https://github.com/neovim/neovim) with a custom configuration *(greatly inspired by this [blog post](https://www.josean.com/posts/how-to-setup-neovim-2024))* and [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management.
 
-| Plugin |
-
-[^1]: My neovim configuration is greatly inspired by this [blog post](https://www.josean.com/posts/how-to-setup-neovim-2024).
+| Plugins |
+| :---: |
+| [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) |
