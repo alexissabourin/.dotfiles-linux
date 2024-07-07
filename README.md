@@ -8,7 +8,7 @@
 
 ## Shell/tooling
 
-I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https://github.com/ohmyzsh/ohmyzsh) for better defaults and management.
+I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https://github.com/ohmyzsh/ohmyzsh) for better defaults and plugin management.
 
 | Tool |
 | :---: |
