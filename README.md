@@ -35,5 +35,8 @@ I use [tmux](https://github.com/tmux/tmux) with [tmuxp](https://github.com/tmux-
 ## Text editor
 
 I use [neovim](https://github.com/neovim/neovim) with [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management.
+I use a custom configuration[^1].
 
 | Plugin |
+
+[^1]: My neovim configuration is greatly inspired by this [blog post](https://www.josean.com/posts/how-to-setup-neovim-2024).
