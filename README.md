@@ -17,7 +17,7 @@ I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https:
 | [fd](https://github.com/sharkdp/fd) |
 | [fzf](https://github.com/junegunn/fzf) |
 | [git](https://github.com/git/git) |
-| [git-delta](https://github.com/dandavison/delta) |
+| [delta](https://github.com/dandavison/delta) |
 | [mise](https://github.com/jdx/mise) |
 | [stow](https://github.com/aspiers/stow) |
 | [tldr](https://github.com/tldr-pages/tldr) |
