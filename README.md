@@ -22,6 +22,8 @@ I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https:
 | [stow](https://github.com/aspiers/stow) |
 | [tldr](https://github.com/tldr-pages/tldr) |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) |
+| [lazygit](https://github.com/jesseduffield/lazygit) |
+| [luarocks](https://github.com/luarocks/luarocks) |
 
 ## Multiplexing
 
@@ -60,3 +62,21 @@ I use [neovim](https://github.com/neovim/neovim) with a custom configuration *(g
 | [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) |
 | [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) |
 | [vim-maximizer](https://github.com/szw/vim-maximizer) |
+| [nvim-autopairs](https://github.com/windwp/nvim-autopairs) |
+| [Comment.nvim](https://github.com/numToStr/Comment.nvim) |
+| [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) |
+| [substitute.nvim](https://github.com/gbprod/substitute.nvim) |
+| [nvim-surround](https://github.com/kylechui/nvim-surround) |
+| [mason.nvim](https://github.com/williamboman/mason.nvim) |
+| [cpm-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) |
+| [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim) |
+| [neodev.nvim](https://github.com/folke/neodev.nvim) |
+| [nvim-lsp-file-operations](https://github.com/antosha417/nvim-lsp-file-operations) |
+| [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) |
+| [trouble.nvim](https://github.com/folke/trouble.nvim) |
+| [todo-comments.nvim](https://github.com/folke/todo-comments.nvim) |
+| [conform.nvim](https://github.com/stevearc/conform.nvim) |
+| [mason-tool-installer.nvim](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim) |
+| [nvim-lint](https://github.com/mfussenegger/nvim-lint) |
+| [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) |
+| [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) |
