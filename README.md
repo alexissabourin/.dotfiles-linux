@@ -24,6 +24,7 @@ I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https:
 | [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | [lazygit](https://github.com/jesseduffield/lazygit) |
 | [taplo-cli](https://github.com/tamasfe/taplo/tree/master/crates/taplo-cli) |
+| [shfmt](https://github.com/mvdan/sh) |
 
 ## Multiplexing
 
