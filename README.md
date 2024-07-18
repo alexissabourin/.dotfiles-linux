@@ -29,11 +29,12 @@ I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https:
 
 I use [tmux](https://github.com/tmux/tmux) with [tmuxp](https://github.com/tmux-python/tmuxp) for projects layouts and [tpm](https://github.com/tmux-plugins/tpm) for plugin management.
 
-| Plugins |
-| :---: |
-| [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible) |
-| [tmux-gruvbox](https://github.com/egel/tmux-gruvbox) |
+> [!NOTE]
+> My plugins can be found in this repository.
 
 ## Text editor
 
-I use [neovim](https://github.com/neovim/neovim) with a custom configuration *(greatly inspired by this [blog post](https://www.josean.com/posts/how-to-setup-neovim-2024))* and [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management. My plugins can be found in this repository.
+I use [neovim](https://github.com/neovim/neovim) with a custom configuration *(greatly inspired by this [blog post](https://www.josean.com/posts/how-to-setup-neovim-2024))* and [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management.
+
+> [!NOTE]
+> My plugins can be found in this repository.
