@@ -1,10 +1,8 @@
 return {
-  {
-    "ellisonleao/gruvbox.nvim",
-    priority = 1000,
-    config = true,
-    opts = function()
-      vim.cmd([[colorscheme gruvbox]])
-    end
-  }
+	"ellisonleao/gruvbox.nvim",
+	priority = 1000,
+	version = "2.0.9",
+	init = function()
+		vim.cmd([[colorscheme gruvbox]])
+	end,
 }

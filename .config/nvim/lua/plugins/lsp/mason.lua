@@ -9,32 +9,15 @@ return {
 		local mason_lspconfig = require("mason-lspconfig")
 		local mason_tool_installer = require("mason-tool-installer")
 
-		mason.setup({
-			ui = {
-				icons = {
-					package_installed = "✓",
-					package_pending = "➜",
-					package_uninstalled = "✗",
-				},
-			},
-		})
+		mason.setup()
 
 		mason_lspconfig.setup({
 			ensure_installed = {
 				"bashls",
-				"cssls",
-				"dockerls",
-				"html",
-				"jsonls",
-				"tsserver",
 				"lua_ls",
 				"marksman",
 				"pyright",
-				"sqlls",
-				"taplo",
-				"lemminx",
 				"yamlls",
-				"tailwindcss",
 			},
 		})
 		mason_tool_installer.setup({
@@ -43,8 +26,14 @@ return {
 				"stylua",
 				"isort",
 				"black",
-				"pylint",
-				"eslint_d",
+				"shfmt",
+				"taplo",
+				"jsonlint",
+				"yamllint",
+				"luacheck",
+				"flake8",
+				"shellcheck",
+				"eslint",
 			},
 		})
 	end,
