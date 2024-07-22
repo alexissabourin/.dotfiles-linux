@@ -1,30 +1,18 @@
-local function nvim_tree_preview()
-	return require("nvim-tree-preview")
-end
-
 return {
 	"nvim-tree/nvim-tree.lua",
+	version = "v1.5.0",
 	dependencies = {
-		"nvim-tree/nvim-web-devicons",
-		"b0o/nvim-tree-preview.lua",
-	},
-	keys = {
-		{ "<leader>ee", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle file explorer" } },
-		{ "<leader>ef", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Toggle file explorer on current file" } },
-		{ "<leader>ec", "<cmd>NvimTreeCollapse<CR>", { desc = "Collapse file explorer" } },
-		{ "<leader>er", "<cmd>NvimTreeRefresh<CR>", { desc = "Refresh file explorer" } },
 		{
-			"<leader><TAB>",
-			function()
-				nvim_tree_preview().node_under_cursor()
-			end,
-			{ desc = "Toggle file explorer" },
+			"nvim-tree/nvim-web-devicons",
+			version = "v0.100",
 		},
 	},
-	init = function()
-		vim.g.loaded_netrw = 1
-		vim.g.loaded_netrwPlugin = 1
-	end,
+	keys = {
+		{ "<leader>ee", "<cmd>NvimTreeToggle<CR>", desc = "Toggle file explorer" },
+		{ "<leader>ef", "<cmd>NvimTreeFindFileToggle<CR>", desc = "Toggle file explorer on current file" },
+		{ "<leader>ec", "<cmd>NvimTreeCollapse<CR>", desc = "Collapse file explorer" },
+		{ "<leader>er", "<cmd>NvimTreeRefresh<CR>", desc = "Refresh file explorer" },
+	},
 	opts = {
 		view = {
 			width = 35,
@@ -49,9 +37,6 @@ return {
 					enable = false,
 				},
 			},
-		},
-		git = {
-			enable = true,
 		},
 	},
 }

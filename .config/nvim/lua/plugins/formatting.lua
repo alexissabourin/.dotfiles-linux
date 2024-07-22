@@ -4,14 +4,10 @@ local format_spec = {
 	timeout_ms = 1000,
 }
 
-local function conform()
-	return require("conform")
-end
-
 return {
 	"stevearc/conform.nvim",
-	version = "v6.*",
-	event = { "BufReadPre", "BufNewFile" },
+	version = "v6.1.0",
+	event = "VeryLazy",
 	opts = {
 		formatters_by_ft = {
 			json = { "prettier" },
@@ -24,14 +20,18 @@ return {
 		},
 		format_on_save = format_spec,
 	},
-	keys = {
-		{
-			"<leader>mp",
-			function()
-				conform().format(format_spec)
-			end,
-			{ desc = "Format file or range (in visual mode)" },
-			mode = { "n", "v" },
-		},
-	},
+	keys = function()
+		local conform = require("conform")
+
+		return {
+			{
+				"<leader>mp",
+				function()
+					conform.format(format_spec)
+				end,
+				desc = "Format file or range (in visual mode)",
+				mode = { "n", "v" },
+			},
+		}
+	end,
 }

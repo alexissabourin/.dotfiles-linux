@@ -1,5 +1,4 @@
 return {
 	"stevearc/dressing.nvim",
-	event = "VeryLazy",
-	version = "v2.2.*",
+	version = "v2.2.2",
 }

@@ -1,21 +1,28 @@
-local function lazy_status()
-	return require("lazy.status")
-end
-
 return {
 	"nvim-lualine/lualine.nvim",
-	dependencies = { "nvim-tree/nvim-web-devicons" },
-	version = "compat-nvim-0.6",
-	config = true,
-	options = {
-		sections = {
-			lualine_x = {
-				lazy_status().updates,
-				cond = lazy_status().has_updates,
-			},
-			{ "encoding" },
-			{ "fileformat" },
-			{ "filetype" },
+	dependencies = {
+		{
+			"nvim-tree/nvim-web-devicons",
+			version = "v0.100",
 		},
 	},
+	version = "compat-nvim-0.6",
+	config = true,
+	opts = function()
+		local lazy_status = require("lazy.status")
+
+		return {
+			options = {
+				sections = {
+					lualine_x = {
+						lazy_status.updates,
+						cond = lazy_status.has_updates,
+					},
+					{ "encoding" },
+					{ "fileformat" },
+					{ "filetype" },
+				},
+			},
+		}
+	end,
 }
