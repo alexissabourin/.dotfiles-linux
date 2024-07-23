@@ -1,16 +1,9 @@
 return {
 	"nvim-telescope/telescope.nvim",
-	version = "0.1.8",
 	dependencies = {
-		{
-			"nvim-lua/plenary.nvim",
-			version = "v0.1.4",
-		},
+		"nvim-lua/plenary.nvim",
 		{ "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
-		{
-			"nvim-tree/nvim-web-devicons",
-			version = "v0.100",
-		},
+		"nvim-tree/nvim-web-devicons",
 	},
 	keys = {
 		{

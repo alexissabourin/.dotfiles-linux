@@ -1,12 +1,9 @@
 return {
-	"toppair/peek.nvim",
-	build = "deno task --quiet build:fast",
-	config = function()
-		local peek = require("peek")
-		peek.setup({
-			app = "browser",
-		})
-		vim.api.nvim_create_user_command("PeekOpen", peek.open, {})
-		vim.api.nvim_create_user_command("PeekClose", peek.close, {})
+	"iamcco/markdown-preview.nvim",
+	cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+	build = "cd app && npm install && rm -f package-lock.json && git restore .",
+	init = function()
+		vim.g.mkdp_filetypes = { "markdown" }
 	end,
+	ft = { "markdown" },
 }

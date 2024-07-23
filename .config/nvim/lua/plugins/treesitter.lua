@@ -1,6 +1,6 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
-	version = "v0.9.2",
+	build = ":TSUpdate",
 	dependencies = { "windwp/nvim-ts-autotag" },
 	init = function()
 		local nvim_treesitter_configs = require("nvim-treesitter.configs")
@@ -18,9 +18,11 @@ return {
 				"yaml",
 				"lua",
 				"markdown",
+				"markdown_inline",
 				"python",
 				"bash",
 				"toml",
+				"vimdoc",
 			},
 			incremental_selection = {
 				enable = true,

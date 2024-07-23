@@ -6,8 +6,6 @@ local format_spec = {
 
 return {
 	"stevearc/conform.nvim",
-	version = "v6.1.0",
-	event = "VeryLazy",
 	opts = {
 		formatters_by_ft = {
 			json = { "prettier" },

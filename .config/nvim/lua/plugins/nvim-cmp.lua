@@ -1,18 +1,20 @@
 return {
 	"hrsh7th/nvim-cmp",
-	version = "v0.0.1",
+	event = "InsertEnter",
 	dependencies = {
 		"hrsh7th/cmp-buffer",
 		"hrsh7th/cmp-path",
 		{
 			"L3MON4D3/LuaSnip",
-			version = "v2.3.0",
 			build = "make install_jsregexp",
 		},
 		"saadparwaiz1/cmp_luasnip",
 		"rafamadriz/friendly-snippets",
 		"onsails/lspkind.nvim",
 	},
+	init = function()
+		require("luasnip.loaders.from_vscode").lazy_load()
+	end,
 	opts = function()
 		local luasnip = require("luasnip")
 		local cmp = require("cmp")

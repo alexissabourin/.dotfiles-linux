@@ -6,7 +6,6 @@ return {
 			version = "v0.100",
 		},
 	},
-	version = "v3.6.0",
 	opts = {
 		focus = true,
 	},

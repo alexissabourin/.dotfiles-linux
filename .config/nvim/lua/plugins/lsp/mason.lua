@@ -1,10 +1,8 @@
 return {
 	"williamboman/mason.nvim",
-	version = "v1.10.0",
 	dependencies = {
 		{
 			"williamboman/mason-lspconfig.nvim",
-			version = "v1.29.0",
 			init = function()
 				-- mason-lspconfig.nvim needs to be setup before mason.nvim
 				require("mason-lspconfig").setup()
@@ -14,11 +12,11 @@ return {
 					"jsonls",
 					"yamlls",
 					"lua_ls",
-					"marksman",
 					"pyright",
 					"bashls",
 					"taplo",
 					"eslint",
+					"vale_ls",
 				},
 			},
 		},
@@ -27,6 +25,7 @@ return {
 			opts = {
 				ensure_installed = {
 					"prettier",
+					"markdownlint",
 					"stylua",
 					"isort",
 					"black",
@@ -37,6 +36,7 @@ return {
 					"luacheck",
 					"flake8",
 					"shellcheck",
+					"vale",
 				},
 			},
 		},

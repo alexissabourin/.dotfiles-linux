@@ -1,6 +1,5 @@
 return {
 	"neovim/nvim-lspconfig",
-	version = "v0.1.8",
 	dependencies = {
 		"hrsh7th/cmp-nvim-lsp",
 		{
@@ -9,7 +8,6 @@ return {
 		},
 		{
 			"folke/neodev.nvim",
-			version = "v3.0.0",
 			config = true,
 		},
 	},
@@ -48,6 +46,7 @@ return {
 							diagnostics = {
 								globals = { "vim" },
 								disable = {
+									"missing-parameter",
 									"missing-fields",
 								},
 							},

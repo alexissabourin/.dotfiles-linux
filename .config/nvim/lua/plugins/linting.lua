@@ -1,7 +1,6 @@
 return {
 	"mfussenegger/nvim-lint",
-	enabled = false,
-	version = "nvim-05",
+	event = "VeryLazy",
 	keys = function()
 		local lint = require("lint")
 
@@ -20,12 +19,13 @@ return {
 			json = { "jsonlint" },
 			yaml = { "yamllint" },
 			lua = { "luacheck" },
+			markdown = { "markdownlint", "vale" },
 			py = { "flake8" },
 			bash = { "shellcheck" },
 			toml = { "eslint" },
 		},
 	},
-	init = function()
+	config = function()
 		local lint = require("lint")
 
 		vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost", "TextChangedI", "InsertLeave" }, {
@@ -35,5 +35,4 @@ return {
 			end,
 		})
 	end,
-	config = function() end,
 }

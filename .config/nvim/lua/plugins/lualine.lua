@@ -6,7 +6,6 @@ return {
 			version = "v0.100",
 		},
 	},
-	version = "compat-nvim-0.6",
 	config = true,
 	opts = function()
 		local lazy_status = require("lazy.status")
