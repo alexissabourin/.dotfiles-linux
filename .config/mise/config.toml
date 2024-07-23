@@ -1,5 +1,2 @@
 [settings]
 experimental = true
-
-[tools]
-neovim = "latest"
