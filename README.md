@@ -35,7 +35,7 @@ I use [neovim](https://github.com/neovim/neovim) with a custom configuration *(g
 
 ## Stowing
 
-I use [stow](https://github.com/aspiers/stow) to symlink my dotfiles. I usually use the `stow .` command at the roots of this repository and the `.config` folder.
+I use [stow](https://github.com/aspiers/stow) to symlink my dotfiles. I usually use the `stow .` command at the roots of this repository, the `.config` folder and the omitted `.tmuxp` folder.
 
 ## SSH
 
