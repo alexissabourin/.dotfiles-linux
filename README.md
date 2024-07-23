@@ -45,13 +45,6 @@ I mainly use [openssh](https://github.com/openssh/openssh-portable) to handle my
 > [!NOTE]
 > My keys have been omitted from this repository for obvious reasons, you will need to bring your own.
 
-## Vale
-
-This [configuration file](/.config/vale/.vale.ini) is exclusively used for markdown files linting in neovim.
-
-> [!IMPORTANT]
-> For it to be functional, you will need to generate its associated `styles` folder, follow this [blog](https://docs.rockylinux.org/fr/books/nvchad/vale_nvchad/) for further explanations.
-
 ## Package managers
 
 |                     Manager                      |
