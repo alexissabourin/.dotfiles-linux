@@ -6,6 +6,7 @@ local format_spec = {
 
 return {
 	"stevearc/conform.nvim",
+	event = { "BufReadPre", "BufNewFile" },
 	opts = {
 		formatters_by_ft = {
 			json = { "prettier" },

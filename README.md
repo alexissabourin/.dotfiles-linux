@@ -10,16 +10,16 @@
 
 I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https://github.com/ohmyzsh/ohmyzsh) for better defaults and plugin management.
 
-| Tools |
-| :---: |
-| [bat](https://github.com/sharkdp/bat) |
-| [eza](https://github.com/eza-community/eza) |
-| [fd](https://github.com/sharkdp/fd) |
-| [fzf](https://github.com/junegunn/fzf) |
-| [git](https://github.com/git/git) |
-| [delta](https://github.com/dandavison/delta) |
-| [mise](https://github.com/jdx/mise) |
-| [tldr](https://github.com/tldr-pages/tldr) |
+|                      Tools                      |
+| :---------------------------------------------: |
+|      [bat](https://github.com/sharkdp/bat)      |
+|   [eza](https://github.com/eza-community/eza)   |
+|       [fd](https://github.com/sharkdp/fd)       |
+|     [fzf](https://github.com/junegunn/fzf)      |
+|        [git](https://github.com/git/git)        |
+|  [delta](https://github.com/dandavison/delta)   |
+|       [mise](https://github.com/jdx/mise)       |
+|   [tldr](https://github.com/tldr-pages/tldr)    |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | [xclip](https://github.com/astrand/xclip) |
 
@@ -32,7 +32,7 @@ I use [tmux](https://github.com/tmux/tmux) with [tmuxp](https://github.com/tmux-
 
 ## Text editor
 
-I use [neovim](https://github.com/neovim/neovim) with a custom configuration *(greatly inspired by this [blog post](https://www.josean.com/posts/how-to-setup-neovim-2024))* and [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management.
+I use [neovim](https://github.com/neovim/neovim) with a custom configuration _(greatly inspired by this [blog post](https://www.josean.com/posts/how-to-setup-neovim-2024))_ and [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management.
 
 ## Stowing
 
@@ -47,14 +47,14 @@ I mainly use [openssh](https://github.com/openssh/openssh-portable) to handle my
 
 ## Vale
 
-This [configuration file](/.config/vale/.vale.ini) is exclusively used for markdown files linting in neovim. 
+This [configuration file](/.config/vale/.vale.ini) is exclusively used for markdown files linting in neovim.
 
 > [!IMPORTANT]
 > For it to be functional, you will need to generate its associated `styles` folder, follow this [blog](https://docs.rockylinux.org/fr/books/nvchad/vale_nvchad/) for further explanations.
 
 ## Package managers
 
-| Manager |
-| :---: |
+|                     Manager                      |
+| :----------------------------------------------: |
 | [luarocks](https://github.com/luarocks/luarocks) |
-| [npm](https://github.com/npm/cli) |
+|        [npm](https://github.com/npm/cli)         |

@@ -1,9 +1,10 @@
 return {
 	"iamcco/markdown-preview.nvim",
-	cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
 	build = "cd app && npm install && rm -f package-lock.json && git restore .",
-	init = function()
-		vim.g.mkdp_filetypes = { "markdown" }
-	end,
 	ft = { "markdown" },
+	keys = {
+		{ "<leader>zz", "<cmd>MarkdownPreview<CR>", desc = "Preview markdown file" },
+		{ "<leader>zt", "<cmd>MarkdownPreviewToggle<CR>", desc = "Toggle preview markdown file" },
+		{ "<leader>zs", "<cmd>MarkdownPreviewStop<CR>", desc = "Stop preview markdown file" },
+	},
 }

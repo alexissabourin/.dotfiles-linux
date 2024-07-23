@@ -16,7 +16,6 @@ return {
 					"bashls",
 					"taplo",
 					"eslint",
-					"vale_ls",
 				},
 			},
 		},
@@ -25,7 +24,6 @@ return {
 			opts = {
 				ensure_installed = {
 					"prettier",
-					"markdownlint",
 					"stylua",
 					"isort",
 					"black",
@@ -36,7 +34,6 @@ return {
 					"luacheck",
 					"flake8",
 					"shellcheck",
-					"vale",
 				},
 			},
 		},

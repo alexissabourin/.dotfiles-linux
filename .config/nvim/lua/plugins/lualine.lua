@@ -1,10 +1,7 @@
 return {
 	"nvim-lualine/lualine.nvim",
 	dependencies = {
-		{
-			"nvim-tree/nvim-web-devicons",
-			version = "v0.100",
-		},
+		"nvim-tree/nvim-web-devicons",
 	},
 	config = true,
 	opts = function()

@@ -1,6 +1,6 @@
 return {
 	"mfussenegger/nvim-lint",
-	event = "VeryLazy",
+	event = { "BufReadPre", "BufNewFile" },
 	keys = function()
 		local lint = require("lint")
 
@@ -19,7 +19,6 @@ return {
 			json = { "jsonlint" },
 			yaml = { "yamllint" },
 			lua = { "luacheck" },
-			markdown = { "markdownlint", "vale" },
 			py = { "flake8" },
 			bash = { "shellcheck" },
 			toml = { "eslint" },
@@ -31,6 +30,10 @@ return {
 		vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost", "TextChangedI", "InsertLeave" }, {
 			group = vim.api.nvim_create_augroup("lint", { clear = true }),
 			callback = function()
+				-- This check is required because this autocmd will break in markdown files
+				if vim.bo.filetype ~= "md" then
+					return
+				end
 				lint.try_lint()
 			end,
 		})

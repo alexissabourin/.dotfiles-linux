@@ -73,6 +73,7 @@ end
 g.mapleader = " "
 g.loaded_netrw = 1
 g.loaded_netrwPlugin = 1
+g.mkdp_filetypes = { "markdown" }
 
 --[[
 -- Keymaps
