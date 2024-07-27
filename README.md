@@ -21,7 +21,6 @@ I use [zsh](https://github.com/zsh-users/zsh) as my main shell with [omz](https:
 |       [mise](https://github.com/jdx/mise)       |
 |   [tldr](https://github.com/tldr-pages/tldr)    |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) |
-| [xclip](https://github.com/astrand/xclip) |
 
 ## Multiplexing
 
