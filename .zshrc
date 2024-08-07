@@ -3,7 +3,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
-plugins=(git alias-finder archlinux fd gitignore sudo zoxide zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git alias-finder archlinux gitignore sudo zoxide zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
