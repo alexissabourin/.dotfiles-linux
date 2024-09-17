@@ -16,6 +16,7 @@ return {
 					"bashls",
 					"taplo",
 					"eslint",
+					"texlab",
 				},
 			},
 		},

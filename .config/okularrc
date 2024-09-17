@@ -1,0 +1,15 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/.dotfiles-linux/.config/nvim/lua/plugins/test/lol.pdf
+File2[$e]=file:$HOME/.dotfiles-linux/.config/nvim/lua/plugins/test/lol.pdf
+Name1[$e]=lol.pdf
+Name2[$e]=lol.pdf
