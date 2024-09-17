@@ -10,7 +10,6 @@ return {
 			opts = {
 				ensure_installed = {
 					"jsonls",
-					"yamlls",
 					"lua_ls",
 					"pyright",
 					"bashls",
@@ -31,7 +30,6 @@ return {
 					"shfmt",
 					"taplo",
 					"jsonlint",
-					"yamllint",
 					"luacheck",
 					"flake8",
 					"shellcheck",

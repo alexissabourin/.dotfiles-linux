@@ -17,7 +17,6 @@ return {
 	opts = {
 		linters_by_ft = {
 			json = { "jsonlint" },
-			yaml = { "yamllint" },
 			lua = { "luacheck" },
 			py = { "flake8" },
 			bash = { "shellcheck" },
